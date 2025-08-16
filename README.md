@@ -27,43 +27,65 @@ It uses:
 * Displays similarity score & verification result
 
 ## 📂 Project Structure
-text
-.
-├── appeasyocr.py       # Main Streamlit app
-├── utilseasyocr.py     # OCR & Face verification utilities
-└── captured_images/    # Folder where uploaded images are stored (created automatically)
+`text`
+
+`
+.`
+
+`├── appeasyocr.py       # Main Streamlit app`
+
+`├── utilseasyocr.py     # OCR & Face verification utilities`
+
+`└── captured_images/    # Folder where uploaded images are stored`
+`(created automatically)`
+
 
 ## ⚙️ Installation
 ### 1️⃣ Clone the repository
-`bash
-git clone https://github.com/<your-username>/emirates-id-verification.git
+`bash`
+
+`git clone https://github.com/<your-username>/emirates-id-verification.git
 cd emirates-id-verification`
 ### 2️⃣ Create & activate a virtual environment (recommended)
-`bash
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows`
+`bash`
+
+`python -m venv venv`
+
+`source venv/bin/activate   # On macOS/Linux`
+
+`venv\Scripts\activate      # On Windows`
+
 ### 3️⃣ Install dependencies
-`bash
-pip install -r requirements.txt`
+`bash`
+
+`pip install -r requirements.txt`
 
 ## 📦 Requirements
 Here’s what you’ll need in requirements.txt:
 
-`text
-streamlit
-opencv-python
-pillow
-easyocr
-deepface
-numpy`
+`text`
+
+`streamlit`
+
+`opencv-python`
+
+`pillow`
+
+`easyocr`
+
+`deepface`
+
+`numpy`
+
 (You may also need torch & torchvision manually for EasyOCR if not installed automatically.)
 
 ## ▶️ Running the App
 Start the Streamlit app:
 
-`bash
-streamlit run appeasyocr.py`
+`bash`
+
+`streamlit run appeasyocr.py`
+
 The app will launch in your browser (default: http://localhost:8501).
 
 ## 🖼️ Usage Flow
